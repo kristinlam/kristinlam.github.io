@@ -1,4 +1,3 @@
-import './App.css';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
