@@ -1,28 +1,29 @@
-@use './colors';
-
-.heading {
-  margin-bottom: 1rem;
-}
+@use './variables';
 
 .about {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  gap: 50px;
+  gap: 80px;
+  margin-bottom: 2.5rem;
 
-  p:not(:last-child) {
+  .description p:not(:last-child) {
     margin-bottom: 1rem;
+  }
+
+  .description h2 {
+    margin-bottom: 1rem;
+  }
+
+  .photo {
+    img {
+      width: 320px;
+      height: auto;
+      border-radius: 5px;
+    }
   }
 }
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
-}
-
-.photo {
-  img {
-    width: 320px;
-    height: auto;
-    border-radius: 5px;
-  }
+  grid-template-columns: repeat(3, minmax(140px, 1fr));
 }

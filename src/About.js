@@ -7,9 +7,7 @@ const About = () => {
     <section id="about">
       <div className={styles.about}>
         <div className={styles.description}>
-          <div className={styles.heading}>
-            <h2>About Me</h2>
-          </div>
+          <h2>About Me</h2>
           <p>
             Hello! My name is Kristin and I love creating things on the web. I
             first fell in love with web development in 2005, and would rush home
@@ -33,9 +31,10 @@ const About = () => {
           <img src={aboutImg} />
         </div>
       </div>
+
       <div className={styles.skills}>
         <div className={styles.column}>
-          <h3>Languages</h3>
+          <h4>Languages</h4>
           <ul>
             <li>JavaScript (ES6)</li>
             <li>HTML5</li>
@@ -43,7 +42,7 @@ const About = () => {
           </ul>
         </div>
         <div className={styles.column}>
-          <h3>Tools & Technologies</h3>
+          <h4>Tools & Technologies</h4>
           <ul>
             <li>React</li>
             <li>Redux</li>
@@ -52,6 +51,13 @@ const About = () => {
             <li>PostgreSQL</li>
             <li>React Native</li>
             <li>Git & Github</li>
+          </ul>
+        </div>
+        <div className={styles.column}>
+          <h4>Front End Frameworks</h4>
+          <ul>
+            <li>styled-components</li>
+            <li>React Bootstrap</li>
           </ul>
         </div>
       </div>
