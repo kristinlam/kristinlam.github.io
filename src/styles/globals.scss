@@ -1,6 +1,11 @@
 @use './colors';
-$font-stack: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-  'Droid Sans', 'Helvetica Neue', sans-serif;
+// $font-stack: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+//   'Droid Sans', 'Helvetica Neue', sans-serif;
+
+// Font Variables
+// $sans: 'Inter', sans-serif;
+$sans: 'Inter', sans-serif;
+$serif: 'Playfair Display', serif;
 
 html {
   box-sizing: border-box;
@@ -16,18 +21,25 @@ html {
 }
 
 body {
-  font: 100% $font-stack;
+  font: 1rem $sans;
   color: colors.$black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  margin: 100px auto;
+  max-width: 1000px;
+}
+
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font: 1.6rem $serif;
+  font-weight: 700;
+  letter-spacing: 1px;
   color: colors.$green;
 }
 

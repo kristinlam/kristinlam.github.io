@@ -9,6 +9,10 @@
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 50px;
+
+  p:not(:last-child) {
+    margin-bottom: 1rem;
+  }
 }
 
 .skills {
