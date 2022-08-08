@@ -8,8 +8,7 @@ const About = () => {
       <div className={styles.about}>
         <div className={styles.description}>
           <div className={styles.heading}>
-            <h2>01. About Me</h2>
-            <h1>Words Here</h1>
+            <h2>About Me</h2>
           </div>
           <p>
             Hello! My name is Kristin and I love creating things on the web. I

@@ -1,8 +1,7 @@
 @use './colors';
 
 .heading {
-  background-color: lightblue;
-  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .about {
@@ -22,7 +21,8 @@
 
 .photo {
   img {
-    width: 400px;
+    width: 320px;
     height: auto;
+    border-radius: 5px;
   }
 }

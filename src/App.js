@@ -5,12 +5,10 @@ import Contact from './Contact';
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
-        <p>Hello, I'm Kristin</p>
-        <About />
-        <Projects />
-        <Contact />
-      </div>
+      <p>Hello, I'm Kristin</p>
+      <About />
+      <Projects />
+      <Contact />
     </div>
   );
 }
