@@ -1,33 +1,44 @@
 @use './colors';
 
+.contactSection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 100px;
+}
+
 .heading {
-  background-color: lightblue;
+  // background-color: lightblue;
+  grid-column: 1/ 5;
+  grid-row: 1 / 2;
 }
 
 .contactInfo {
-  background-color: lightblue;
+  // background-color: pink;
+  grid-column: 3 / 5;
+  grid-row: 2 / 3;
 
-  p {
-    color: colors.$green;
+  .cta {
+    width: 80%;
   }
 
   hr {
     background-color: colors.$green;
     height: 1px;
     border: none;
-  }
-}
-
-.socialLinks {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
-
-  ul {
-    list-style-type: none;
+    margin: 30px 0;
   }
 
-  a:link,
-  a:visited {
-    color: colors.$green;
+  .socialLinks {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+
+    ul {
+      list-style-type: none;
+    }
+
+    a:link,
+    a:visited {
+      color: colors.$green;
+    }
   }
 }

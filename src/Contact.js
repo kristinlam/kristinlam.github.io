@@ -3,20 +3,22 @@ import styles from './styles/contact.module.scss';
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" className={styles.contactSection}>
       <div className={styles.heading}>
-        <h2>03. What's next?</h2>
-        <h1>Get in touch</h1>
+        <h2>Get in Touch</h2>
+        <h3>Let's create together</h3>
       </div>
       <div className={styles.contactInfo}>
-        <p>
-          Whether you're looking to work together, have questions about coding
-          bootcamps, or just want to say hi, I'd love to hear from you.
-        </p>
+        <div className={styles.cta}>
+          <p>
+            Whether you're looking to work together, have questions about coding
+            bootcamps, or just want to say hi, I'd love to hear from you.
+          </p>
+        </div>
         <hr />
         <div className={styles.socialLinks}>
           <div>
-            <h3>Social Media</h3>
+            <h4>Social Media</h4>
             <ul>
               <li>
                 <a
@@ -48,7 +50,7 @@ const Contact = () => {
             </ul>
           </div>
           <div>
-            <h3>Email</h3>
+            <h4>Email</h4>
             <ul>
               <li>
                 <a href="mailto:klam623@gmail.com">klam623@gmail.com</a>
