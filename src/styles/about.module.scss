@@ -1,0 +1,22 @@
+.heading {
+  background-color: purple;
+  width: 100%;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+}
+
+.photo {
+  img {
+    width: 400px;
+    height: auto;
+  }
+}
