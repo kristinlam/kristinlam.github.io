@@ -1,0 +1,27 @@
+.heading {
+  background-color: lightpink;
+}
+
+.contactInfo {
+  background-color: lightblue;
+
+  p {
+    color: green;
+  }
+
+  hr {
+    // border: 1px solid green;
+
+    background-color: green;
+    height: 1px;
+    border: none;
+  }
+}
+
+.socialLinks {
+  display: flex;
+
+  ul {
+    list-style-type: none;
+  }
+}
