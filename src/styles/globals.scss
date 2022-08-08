@@ -3,9 +3,8 @@
 //   'Droid Sans', 'Helvetica Neue', sans-serif;
 
 // Font Variables
-// $sans: 'Inter', sans-serif;
 $sans: 'Inter', sans-serif;
-$serif: 'Playfair Display', serif;
+$mono: 'JetBrains Mono', monospace;
 
 html {
   box-sizing: border-box;
@@ -21,7 +20,8 @@ html {
 }
 
 body {
-  font: 1rem $sans;
+  font: 16px $sans;
+  line-height: 1.4;
   color: colors.$black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,13 +37,22 @@ h1 {
 }
 
 h2 {
-  font: 2rem $serif;
+  font: 2.3rem $mono;
   font-weight: 700;
   letter-spacing: 1px;
   color: colors.$green;
 }
 
 h3 {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  letter-spacing: 1.1px;
+  font-weight: 300;
+}
+
+h4 {
+  font: 18px $mono;
+  font-weight: 700;
   color: colors.$green;
   text-transform: uppercase;
 }
