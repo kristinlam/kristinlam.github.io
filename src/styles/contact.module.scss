@@ -1,27 +1,33 @@
+@use './colors';
+
 .heading {
-  background-color: lightpink;
+  background-color: lightblue;
 }
 
 .contactInfo {
   background-color: lightblue;
 
   p {
-    color: green;
+    color: colors.$green;
   }
 
   hr {
-    // border: 1px solid green;
-
-    background-color: green;
+    background-color: colors.$green;
     height: 1px;
     border: none;
   }
 }
 
 .socialLinks {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
 
   ul {
     list-style-type: none;
+  }
+
+  a:link,
+  a:visited {
+    color: colors.$green;
   }
 }
