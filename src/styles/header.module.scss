@@ -1,0 +1,19 @@
+@use './variables';
+
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.overline {
+  font: 20px variables.$font-mono;
+  color: variables.$green;
+}
+
+.description {
+  font-size: 2.5rem;
+  color: variables.$green;
+}
