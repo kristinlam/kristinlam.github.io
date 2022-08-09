@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles/navbar.module.scss';
+import pdf from './assets/KristinLam_Resume.pdf';
 
 const Navbar = () => {
   return (
@@ -16,7 +17,9 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="/">Resume</a>
+          <a href={pdf} target="_blank">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
