@@ -1,13 +1,22 @@
-import Navbar from './Navbar';
 import Header from './Header';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import background from './assets/images/background.jpg';
+
+const backgroundStyle = {
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  backgroundAttachment: 'fixed',
+  minWidth: '100vw',
+  minHeight: '100vh',
+  backgroundImage: `url(${background})`,
+};
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App" style={backgroundStyle}>
       <Header />
       <About />
       <Projects />
