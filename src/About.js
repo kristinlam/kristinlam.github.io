@@ -11,7 +11,7 @@ const About = () => {
           <p>
             Hello! My name is Kristin and I love creating things on the web. I
             first fell in love with web development in 2005, and would rush home
-            from school to create pages on Neopets with HTML and CSS.
+            from school to experiment with HTML and CSS.
           </p>
           <p>
             I graduated with a B.S. in Computer Science from Villanova
