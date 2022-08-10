@@ -9,8 +9,9 @@ const Header = () => {
         <div className={styles.textContainer}>
           <h1 className={styles.title}>Kristin Lam</h1>
           <div className={styles.description}>
-            <p>I love creating things on the web.</p>
-            <p>Based in New York.</p>
+            <p>Fullstack software engineer.</p>
+            <p>Born and living in New York City.</p>
+            <p>Raised by the 90's.</p>
           </div>
         </div>
         <div className={styles.navContainer}>
