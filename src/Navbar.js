@@ -5,7 +5,6 @@ import pdf from './assets/KristinLam_Resume.pdf';
 const Navbar = () => {
   return (
     <nav id="navigation" className={styles.navbarSection}>
-      <p>logo</p>
       <ul>
         <li>
           <a href="#about">About</a>
