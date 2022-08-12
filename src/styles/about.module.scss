@@ -1,36 +1,46 @@
 @use './variables';
 
 .aboutSection {
-  max-width: 1100px;
-}
-.about {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 80px;
-  margin-bottom: 2.5rem;
+  max-width: 68.75rem;
+  padding: 3em 0;
 
-  .description p:not(:last-child) {
-    margin-bottom: 1rem;
+  h2 {
+    margin-bottom: 0.3em;
   }
 
-  .description h2 {
-    margin-bottom: 1rem;
+  h6 {
+    margin-bottom: 0.3em;
+  }
+}
+
+.aboutRow {
+  margin: 0 auto;
+  display: flex;
+  column-gap: 5em;
+
+  .description {
+    margin-bottom: 2.5em;
+
+    p:not(:last-child) {
+      margin-bottom: 1em;
+    }
   }
 
   .photo {
     margin: 0 auto;
-    max-width: 320px;
+    width: 70em;
 
     img {
       width: 100%;
       height: auto;
-      border-radius: 5px;
+      border-radius: 0.5rem;
     }
   }
 }
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(3, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(8.75em, 1fr));
+  flex-wrap: wrap;
+  column-gap: 1em;
 }
