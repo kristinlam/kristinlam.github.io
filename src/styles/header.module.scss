@@ -1,12 +1,21 @@
 @use './variables';
 
 .header {
-  padding-left: 7rem;
-  padding-right: 4rem;
-  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.content {
+  // border: 1px solid red;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  justify-content: space-between;
+  padding: 0 4rem 0 7rem;
 
   .textContainer {
     word-spacing: 1000rem;
@@ -14,8 +23,8 @@
 }
 
 .row1 {
+  // border: 2px solid green;
   padding-top: 3rem;
-  min-height: 50vh;
   display: flex;
   justify-content: space-between;
 
@@ -37,12 +46,36 @@
 }
 
 .row2 {
-  min-height: calc(50vh - 100px);
+  // border: 2px solid green;
   display: flex;
   align-items: flex-end;
-  padding-right: 4rem;
+  padding: 0 4rem 2rem 0;
 
   .role {
     text-align: right;
   }
+}
+
+.wave {
+  padding-top: 3rem;
+  // border: 1px solid purple;
+  // position: relative;
+  // bottom: -30vh;
+  // bottom: 0;
+  // left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(125% + 1.3px);
+  height: 184px;
+}
+
+.wave .shapeFill {
+  // fill: #417505;
+  fill: variables.$beige;
 }
