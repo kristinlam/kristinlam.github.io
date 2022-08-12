@@ -14,8 +14,8 @@ html {
 }
 
 body {
-  font: 16px variables.$font-sans;
-  line-height: 1.4;
+  font: 1rem variables.$font-sans;
+  line-height: 1.5;
   color: variables.$black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,31 +23,37 @@ body {
 
 section {
   margin: 0 auto;
-  // padding: 7rem;
 }
 
 h1 {
-  font: 9vw variables.$font-mono;
-  // font-weight: 500;
+  font: 7.594rem variables.$font-mono;
   letter-spacing: -5px;
   line-height: 0.8;
 }
 
 h2 {
-  font: 4.5rem variables.$font-mono;
+  font: 5.063rem variables.$font-mono;
   font-weight: 700;
   letter-spacing: 1px;
   color: variables.$black;
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 3.375rem;
   letter-spacing: 1.1px;
   font-weight: 300;
 }
 
 h4 {
-  font: 2rem;
+  font-size: 2.25rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -56,7 +62,7 @@ a:link,
 a:visited {
   text-decoration: none;
   color: variables.$black;
-  // color: inherit;
+  font-size: inherit;
 }
 
 ul {

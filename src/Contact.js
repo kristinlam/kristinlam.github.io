@@ -17,7 +17,7 @@ const Contact = () => {
         <hr />
         <div className={styles.socialLinks}>
           <div>
-            <h4>Social Media</h4>
+            <h6>Social Media</h6>
             <ul>
               <li>
                 <a
@@ -49,7 +49,7 @@ const Contact = () => {
             </ul>
           </div>
           <div>
-            <h4>Email</h4>
+            <h6>Email</h6>
             <ul>
               <li>
                 <a href="mailto:klam623@gmail.com">klam623@gmail.com</a>
