@@ -9,26 +9,30 @@ const Projects = () => {
       <div>
         {projects.map((project) => (
           <div className={styles.project} key={project.id}>
-            <div>
-              <h3>
-                0{project.id}. {project.title}
-              </h3>
-              <img
-                alt="project"
-                src={require(`./assets/images/${project.image}`)}
-              />
-            </div>
-            <div className={styles.projectInfo}>
-              <div className={styles.description}>
-                {project.description.map((paragraph) => (
-                  <p>{paragraph}</p>
-                ))}
+            <div className={styles.projectContent}>
+              <div className={styles.imgContainer}>
+                <img
+                  alt="project"
+                  src={require(`./assets/images/${project.image}`)}
+                />
               </div>
+              <div className={styles.projectInfo}>
+                <h4>{project.title}</h4>
+                <div className={styles.description}>
+                  {project.description.map((paragraph) => (
+                    <p>{paragraph}</p>
+                  ))}
+                </div>
 
-              <p className={styles.tech}>{project.tech}</p>
-              <a href={project.link} rel="noopener noreferrer" target="_blank">
-                view the project
-              </a>
+                <p className={styles.tech}>{project.tech}</p>
+                <a
+                  href={project.link}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  View the project
+                </a>
+              </div>
             </div>
           </div>
         ))}
