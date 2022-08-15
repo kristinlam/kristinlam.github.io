@@ -4,6 +4,11 @@
   max-width: 120rem;
   padding: 3rem 7rem;
 
+  @media only screen and (max-width: 75em) {
+    // 1200px
+    padding: 4rem;
+  }
+
   h2 {
     display: flex;
     align-items: center;
