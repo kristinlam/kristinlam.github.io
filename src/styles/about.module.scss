@@ -1,11 +1,24 @@
 @use './variables';
 
 .aboutSection {
-  max-width: 68.75rem;
-  padding: 3em 0;
+  max-width: 120rem;
+  padding: 3rem 7rem;
 
   h2 {
+    display: flex;
+    align-items: center;
     margin-bottom: 0.3em;
+
+    &::after {
+      content: '';
+      display: block;
+      position: relative;
+      top: -5px;
+      width: 3.6em;
+      height: 1px;
+      margin-left: 0.25em;
+      background-color: variables.$black-light;
+    }
   }
 
   h6 {
@@ -34,6 +47,7 @@
       width: 100%;
       height: auto;
       border-radius: 0.5rem;
+      box-shadow: 0 0.625em 1.875em -0.95em variables.$black;
     }
   }
 }
