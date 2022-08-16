@@ -32,16 +32,6 @@ const Header = () => {
         </div>
       </div>
 
-      {/* <div className={styles.wave}>
-        <svg
-          className={styles.wave}
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="-300 0 950 270"
-        >
-          <path d="M-314,267 C105,364 400,100 812,279" stroke-linecap="round" />
-        </svg>
-      </div> */}
-
       <div className={styles.wave}>
         <svg
           data-name="Layer 1"
