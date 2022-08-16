@@ -17,9 +17,14 @@
   margin: 0 auto;
   padding: 8rem 0;
 
-  @media only screen and (min-width: 75em) and (max-width: 112.4375em) {
-    // min: 1200px, max: 1799
+  @media only screen and (max-width: 112.5em) {
+    // max: 1800
     max-width: 70rem;
+  }
+
+  @media only screen and (max-width: 75em) {
+    // max: 1200
+    max-width: 50rem;
   }
 }
 
