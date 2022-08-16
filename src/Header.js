@@ -16,8 +16,8 @@ const Header = () => {
             <h1 className={styles.title}>Kristin Lam</h1>
             <div className={styles.description}>
               <p>Fullstack software engineer.</p>
-              <p>Born and living in New York City.</p>
-              <p>Raised by the 90's.</p>
+              <p>Living in New York.</p>
+              <p>Let's create together.</p>
             </div>
           </div>
           <div className={styles.navContainer}>
