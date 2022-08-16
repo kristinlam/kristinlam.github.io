@@ -11,7 +11,8 @@
 
   @media only screen and (max-width: 75em) {
     // max: 1200
-    max-width: 50rem;
+    max-width: 100%;
+    padding: 3rem 5rem 6rem;
   }
 
   h2 {
@@ -39,11 +40,11 @@
 
 .project {
   &:not(:last-child) {
-    margin-bottom: 8rem;
+    margin-bottom: 7rem;
 
     @media only screen and (max-width: 75em) {
       // max: 1200
-      margin-bottom: 6rem;
+      margin-bottom: 5rem;
     }
   }
 
@@ -65,6 +66,11 @@
   .imgContainer {
     grid-column: 1 / 9;
     grid-row: 1 / 2;
+
+    @media only screen and (max-width: 75em) {
+      // max: 1200
+      margin-bottom: 0.5rem;
+    }
 
     img {
       width: 100%;

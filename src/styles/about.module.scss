@@ -11,7 +11,8 @@
 
   @media only screen and (max-width: 75em) {
     // max: 1200
-    max-width: 50rem;
+    max-width: 100%;
+    padding: 3rem 5rem;
   }
 
   h2 {
@@ -44,7 +45,17 @@
 .aboutRow {
   margin: 0 auto;
   display: flex;
-  column-gap: 5em;
+  column-gap: 5rem;
+
+  @media only screen and (max-width: 75em) {
+    // max: 1200
+    column-gap: 4rem;
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    // max: 900
+    display: block;
+  }
 
   .description {
     margin-bottom: 2.5em;
@@ -57,6 +68,12 @@
   .photo {
     margin: 0 auto;
     width: 70em;
+
+    @media only screen and (max-width: 56.25em) {
+      // max: 900
+      margin-top: 2.5em;
+      max-width: 20rem;
+    }
 
     img {
       width: 100%;
@@ -71,5 +88,5 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8.75em, 1fr));
   flex-wrap: wrap;
-  column-gap: 1em;
+  grid-gap: 1em;
 }

@@ -5,7 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-width: 100vw;
 }
 
 .content {
@@ -23,8 +22,18 @@
     padding: 0 3rem;
   }
 
+  @media only screen and (max-width: 56.25em) {
+    // max: 900
+    min-height: 0;
+  }
+
   .textContainer {
     word-spacing: 100vw;
+
+    @media only screen and (max-width: 56.25em) {
+      // max: 900
+      word-spacing: normal;
+    }
   }
 }
 
@@ -34,6 +43,12 @@
   display: flex;
   justify-content: space-between;
 
+  @media only screen and (max-width: 56.25em) {
+    // max: 900
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
   .textContainer {
     padding-top: 4em;
   }
@@ -41,6 +56,11 @@
   .description {
     max-width: 28em;
     margin: 2em 0 0 0.5em;
+
+    @media only screen and (max-width: 56.25em) {
+      // max: 900
+      margin: 2em auto 0;
+    }
   }
 
   p {
@@ -55,27 +75,37 @@
   // border: 2px solid green;
   display: flex;
   align-items: flex-end;
-  padding: 0 4rem 2rem 0;
+  padding: 0 4rem 3rem 0;
 
   @media only screen and (max-width: 75em) {
     // max: 1200
     padding-right: 0;
   }
 
+  @media only screen and (max-width: 56.25em) {
+    // max: 900
+    margin-bottom: 0.5rem;
+  }
+
   .role {
     text-align: right;
+
+    @media only screen and (max-width: 56.25em) {
+      // max: 900
+      display: none;
+    }
   }
 }
 
 .wave {
-  padding-top: 3em;
+  padding-top: 2em;
   // border: 1px solid purple;
   width: 100%;
   overflow: hidden;
 
   @media only screen and (max-width: 75em) {
     // max: 1200
-    padding-top: 1em;
+    padding-top: 0;
   }
 }
 
@@ -88,6 +118,11 @@
   @media only screen and (max-width: 75em) {
     // max: 1200
     height: 8em;
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    // max: 900
+    height: 5em;
   }
 }
 
