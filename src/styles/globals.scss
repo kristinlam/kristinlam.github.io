@@ -17,8 +17,11 @@ body {
   font: 1rem variables.$font-sans;
   line-height: 1.5;
   color: variables.$black;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  @media only screen and (min-width: 112.5em) {
+    // min: 1800
+    font-size: 1.125rem;
+  }
 }
 
 section {
@@ -59,10 +62,15 @@ h5 {
 }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.125;
+
+  @media only screen and (min-width: 112.5em) {
+    // min: 1800
+    font-size: 1.125rem;
+  }
 }
 
 a:link,
