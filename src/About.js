@@ -31,11 +31,11 @@ const About = () => {
               >
                 The Bowery Mission
               </a>
-              . I care about many causes — sustainability, mental health,
-              representation, homelessness, and art — and I'm happy whenever I
-              can use my skills for good. I wanted to build on my programming
-              and problem-solving skills to open up more opportunities to work
-              on meaningful projects, so I attended The Grace Hopper Coding
+              . Sustainability, mental health, equality and diversity,
+              homelessness, and art are causes near and dear to my heart. I
+              wanted to build on my technical and problem-solving skills, open
+              up opportunities to work on meaningful projects, and grow as a
+              programmer. With this in mind, I attended The Grace Hopper Coding
               Bootcamp. Now, I’m looking to make a difference as a software
               engineer.
             </p>
