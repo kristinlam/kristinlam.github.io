@@ -17,9 +17,23 @@ const About = () => {
             </p>
             <p>
               I graduated with a B.S. in Computer Science from Villanova
-              University, then designed and built webpages and emails for
-              Memorial Sloan Kettering Cancer Center and The Bowery Mission. To
-              grow my technical skills and challenge myself, I attended The
+              University, then designed and built webpages and emails for{' '}
+              <a
+                href="https://www.mskcc.org/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Memorial Sloan Kettering Cancer Center
+              </a>{' '}
+              and{' '}
+              <a
+                href="https://www.bowery.org/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                The Bowery Mission
+              </a>
+              . To grow my technical skills and challenge myself, I attended The
               Grace Hopper Coding Bootcamp. Now, I’m looking to make a
               difference as a software engineer.
             </p>

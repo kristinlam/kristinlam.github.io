@@ -1,19 +1,22 @@
 @use './variables';
 
 .navbarSection {
-  ul {
-    li {
-      font-size: 1.5rem;
-      text-align: right;
-      text-transform: uppercase;
+  li {
+    font-size: 1.5rem;
+    text-align: right;
+    text-transform: uppercase;
 
-      &:not(:last-child) {
-        margin-bottom: 0.5em;
-      }
-
-      &:hover {
-        cursor: pointer;
-      }
+    &:not(:last-child) {
+      margin-bottom: 0.5em;
     }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  a:link,
+  a:visited {
+    color: variables.$black;
   }
 }
