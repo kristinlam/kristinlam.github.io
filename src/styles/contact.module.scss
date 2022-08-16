@@ -1,18 +1,30 @@
 @use './variables';
 
 .contactSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  min-height: 100vh;
-  padding: 7rem;
   background-color: variables.$black-dark;
   color: variables.$white;
+
+  h1 {
+    margin-bottom: 1.5em;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 87.5rem;
+  margin: 0 auto;
+  padding: 8rem 0;
+
+  @media only screen and (min-width: 75em) and (max-width: 112.4375em) {
+    // min: 1200px, max: 1799
+    max-width: 70rem;
+  }
 }
 
 .contactInfo {
-  // background-color: lightblue;
-  max-width: 35em;
+  max-width: 35rem;
 
   .cta {
     width: 80%;
