@@ -38,9 +38,8 @@ const About = () => {
               difference as a software engineer.
             </p>
             <p>
-              When I'm not working on personal projects and brushing up on
-              algorithms and data structures, you can find me crocheting,
-              reading or drinking matcha lattes.
+              When I'm not in front of a computer screen, you can find me
+              crocheting, reading or drinking matcha lattes.
             </p>
           </div>
           <div className={styles.skills}>
@@ -53,22 +52,22 @@ const About = () => {
               </ul>
             </div>
             <div className={styles.column}>
-              <h6>Tools & Technologies</h6>
+              <h6>Front End</h6>
               <ul>
                 <li>React</li>
                 <li>Redux</li>
-                <li>Express.js</li>
-                <li>Sequelize.js</li>
-                <li>PostgreSQL</li>
                 <li>React Native</li>
-                <li>Git & Github</li>
+                <li>Sass</li>
+                <li>CSS Modules</li>
+                <li>Styled Components</li>
               </ul>
             </div>
             <div className={styles.column}>
-              <h6>Front End Frameworks</h6>
+              <h6>Back End</h6>
               <ul>
-                <li>styled-components</li>
-                <li>React Bootstrap</li>
+                <li>Express</li>
+                <li>Sequelize</li>
+                <li>PostgreSQL</li>
               </ul>
             </div>
           </div>
