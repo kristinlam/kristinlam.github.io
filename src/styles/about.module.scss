@@ -1,12 +1,12 @@
 @use './variables';
 
 .aboutSection {
-  max-width: 87.5rem;
+  max-width: 75rem;
   padding: 3rem 0;
 
   @media only screen and (max-width: 112.5em) {
     // max: 1800
-    max-width: 70rem;
+    max-width: 75rem;
   }
 
   @media only screen and (max-width: 75em) {
@@ -67,12 +67,12 @@
 
   .photo {
     margin: 0 auto;
-    width: 70em;
+    width: 85em;
 
     @media only screen and (max-width: 56.25em) {
       // max: 900
       margin-top: 2.5em;
-      max-width: 20rem;
+      max-width: 20em;
     }
 
     img {

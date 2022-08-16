@@ -18,10 +18,10 @@ body {
   line-height: 1.5;
   color: variables.$black;
 
-  @media only screen and (min-width: 112.5em) {
-    // min: 1800
-    font-size: 1.125rem;
-  }
+  // @media only screen and (min-width: 112.5em) {
+  //   // min: 1800
+  //   font-size: 1.125rem;
+  // }
 }
 
 section {
@@ -67,10 +67,10 @@ h6 {
   text-transform: uppercase;
   line-height: 1.125;
 
-  @media only screen and (min-width: 112.5em) {
-    // min: 1800
-    font-size: 1.125rem;
-  }
+  // @media only screen and (min-width: 112.5em) {
+  //   // min: 1800
+  //   font-size: 1.125rem;
+  // }
 }
 
 a:link,

@@ -11,9 +11,7 @@ const About = () => {
         <div className={styles.textContainer}>
           <div className={styles.description}>
             <p>
-              Hello! My name is Kristin and I love creating things on the web. I
-              first fell in love with web development in 2005, and would rush
-              home from school to experiment with HTML and CSS.
+              Hello! My name is Kristin and I love creating things on the web.
             </p>
             <p>
               I graduated with a B.S. in Computer Science from Villanova
@@ -33,9 +31,13 @@ const About = () => {
               >
                 The Bowery Mission
               </a>
-              . To grow my technical skills and challenge myself, I attended The
-              Grace Hopper Coding Bootcamp. Now, I’m looking to make a
-              difference as a software engineer.
+              . I care about many causes — sustainability, mental health,
+              representation, homelessness, and art — and I'm happy whenever I
+              can use my skills for good. I wanted to build on my programming
+              and problem-solving skills to open up more opportunities to work
+              on meaningful projects, so I attended The Grace Hopper Coding
+              Bootcamp. Now, I’m looking to make a difference as a software
+              engineer.
             </p>
             <p>
               When I'm not in front of a computer screen, you can find me
