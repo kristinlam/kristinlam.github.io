@@ -14,7 +14,7 @@ const projects = [
     title: 'Gumbo NYC',
     tech: 'HTML, CSS, Bootstrap, JavaScript',
     description: [
-      'I designed and created the Gamers Under the Manhattan Bridge Overpass website for a collective of indie game studios in NYC.',
+      'A collective of indie game studios located in Dumbo, Brooklyn. I designed and created the Gamers Under the Manhattan Bridge Overpass website.',
     ],
     image: 'gumbo.jpg',
     link: 'https://www.gumbo.nyc/',
@@ -24,7 +24,7 @@ const projects = [
     title: 'The Bowery Mission',
     tech: 'HTML, CSS, Foundation',
     description: [
-      "As the digital development coordinator for The Bowery Mission, NYC's oldest homeless shelter, I led the website overhaul in April 2018 by designing and building hundreds of pages.",
+      "Website for NYC's oldest homeless shelter. As the digital development coordinator for The Bowery Mission in 2018, I led the website overhaul by designing and building hundreds of pages.",
     ],
     image: 'tbm.jpg',
     link: 'https://www.bowery.org/',
