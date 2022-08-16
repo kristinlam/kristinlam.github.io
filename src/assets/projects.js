@@ -14,7 +14,7 @@ const projects = [
     title: 'Gumbo NYC',
     tech: 'HTML, CSS, Bootstrap, JavaScript',
     description: [
-      'A collective of indie game studios located in Dumbo, Brooklyn. I designed and created the Gamers Under the Manhattan Bridge Overpass website.',
+      'Website for a collective of indie game studios called Gamers Under the Manhattan Bridge Overpass, located in Dumbo, Brooklyn. I designed and built the website.',
     ],
     image: 'gumbo.jpg',
     link: 'https://www.gumbo.nyc/',
