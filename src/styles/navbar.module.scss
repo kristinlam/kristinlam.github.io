@@ -24,8 +24,15 @@
     }
   }
 
-  a:link,
-  a:visited {
-    color: variables.$black;
+  a {
+    &:link,
+    &:visited {
+      color: variables.$black;
+      padding-bottom: 5px;
+    }
+
+    &:before {
+      background-color: variables.$black;
+    }
   }
 }

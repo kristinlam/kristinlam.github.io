@@ -73,15 +73,35 @@ h6 {
   // }
 }
 
-a:link,
-a:visited {
-  text-decoration: none;
-  color: variables.$accent;
-  font-size: inherit;
-}
+a {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: variables.$accent;
+    font-size: inherit;
+    position: relative;
+  }
 
-a:hover {
-  cursor: pointer;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: variables.$accent;
+    visibility: hidden;
+    transition: all 0.5s ease;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 ul {
