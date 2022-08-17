@@ -27,6 +27,11 @@
     max-width: 100%;
     padding: 6rem 5rem;
   }
+
+  @media only screen and (max-width: 37.5em) {
+    // max: 600
+    padding: 4rem 2.5rem;
+  }
 }
 
 .contactInfo {
@@ -34,6 +39,11 @@
 
   .cta {
     width: 80%;
+
+    @media only screen and (max-width: 37.5em) {
+      // max: 600
+      width: 100%;
+    }
   }
 
   hr {
@@ -46,6 +56,7 @@
   .socialLinks {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    row-gap: 2em;
 
     h6 {
       margin-bottom: 0.8em;

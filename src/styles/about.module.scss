@@ -15,6 +15,11 @@
     padding: 3rem 5rem;
   }
 
+  @media only screen and (max-width: 37.5em) {
+    // max: 600
+    padding: 2rem 2.5rem;
+  }
+
   h2 {
     display: flex;
     align-items: center;
@@ -73,6 +78,11 @@
       // max: 900
       margin-top: 2.5em;
       max-width: 20em;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      // max: 600
+      max-width: 15em;
     }
 
     img {

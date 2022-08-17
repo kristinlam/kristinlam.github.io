@@ -19,6 +19,11 @@
       font-size: 1.25rem;
     }
 
+    @media only screen and (max-width: 37.5em) {
+      // max: 600
+      font-size: 1rem;
+    }
+
     &:not(:last-child) {
       margin-bottom: 0.5em;
     }

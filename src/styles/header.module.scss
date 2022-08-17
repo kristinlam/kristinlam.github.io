@@ -4,7 +4,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .content {
@@ -27,6 +26,11 @@
     min-height: 0;
   }
 
+  @media only screen and (max-width: 37.5em) {
+    // max: 600
+    padding: 0 1rem;
+  }
+
   .textContainer {
     word-spacing: 100vw;
 
@@ -47,6 +51,11 @@
     // max: 900
     flex-direction: column-reverse;
     text-align: center;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    // max: 600
+    // padding-top: 2rem;
   }
 
   .textContainer {
@@ -113,16 +122,21 @@
   position: relative;
   display: block;
   width: calc(125%);
-  height: 11em;
+  height: 11rem;
 
   @media only screen and (max-width: 75em) {
     // max: 1200
-    height: 8em;
+    height: 8rem;
   }
 
   @media only screen and (max-width: 56.25em) {
     // max: 900
-    height: 5em;
+    height: 5rem;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    // max: 600
+    height: 3rem;
   }
 }
 
