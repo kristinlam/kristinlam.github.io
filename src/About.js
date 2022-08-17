@@ -35,9 +35,15 @@ const About = () => {
               homelessness, and art are causes near and dear to my heart. I
               wanted to build on my technical and problem-solving skills, open
               up opportunities to work on meaningful projects, and grow as a
-              programmer. With this in mind, I attended The Grace Hopper Coding
-              Bootcamp. Now, I’m looking to make a difference as a software
-              engineer.
+              programmer. With this in mind, I attended{' '}
+              <a
+                href="https://www.gracehopper.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                The Grace Hopper Coding Bootcamp
+              </a>
+              . Now, I’m looking to make a difference as a software engineer.
             </p>
             <p>
               When I'm not in front of a computer screen, you can find me
