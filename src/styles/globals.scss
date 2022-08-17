@@ -74,6 +74,13 @@ h6 {
 }
 
 a {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+
   &:link,
   &:visited {
     text-decoration: none;
@@ -82,25 +89,9 @@ a {
     position: relative;
   }
 
-  &:before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: variables.$accent;
-    visibility: hidden;
-    transition: all 0.5s ease;
-  }
-
-  &:hover:before {
-    visibility: visible;
-    width: 100%;
-  }
-
   &:hover {
     cursor: pointer;
+    background-size: 100% 2px;
   }
 }
 
