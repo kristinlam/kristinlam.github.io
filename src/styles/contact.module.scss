@@ -2,10 +2,12 @@
 
 .contactSection {
   background-color: variables.$black-dark;
+  // background-color: variables.$accent;
   color: variables.$white;
+  // color: variables.$black;
 
   h1 {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.1em;
   }
 }
 
@@ -30,7 +32,7 @@
 
   @media only screen and (max-width: 37.5em) {
     // max: 600
-    padding: 4rem 2.5rem;
+    padding: 6rem 1.5rem;
   }
 }
 
@@ -39,6 +41,7 @@
 
   .cta {
     width: 80%;
+    margin-bottom: 2em;
 
     @media only screen and (max-width: 37.5em) {
       // max: 600
@@ -46,15 +49,12 @@
     }
   }
 
-  hr {
-    background-color: variables.$white;
-    height: 1px;
-    border: none;
-    margin: 2em 0;
-  }
-
   .socialLinks {
     display: grid;
+    // border-top: 1px solid variables.$black;
+    border-top: 1px solid variables.$white;
+    padding-top: 2em;
+
     grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
     row-gap: 2em;
 
@@ -69,6 +69,7 @@
     a:link,
     a:visited {
       color: variables.$white;
+      // color: variables.$black;
       text-transform: uppercase;
     }
   }

@@ -14,7 +14,6 @@ const Contact = () => {
               you.
             </p>
           </div>
-          <hr />
           <div className={styles.socialLinks}>
             <div>
               <h6>Social Media</h6>
