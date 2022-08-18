@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href={pdf} target="_blank">
+          <a href={pdf} rel="noopener noreferrer" target="_blank">
             Resume
           </a>
         </li>
