@@ -4,11 +4,11 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: variables.$white-light;
-  // color: variables.$black;
+  // color: variables.$white-light;
 
   h1 {
     font-size: clamp(3.052rem, 10vw, 11rem);
+    text-transform: uppercase;
   }
 }
 
@@ -115,10 +115,10 @@
       display: none;
     }
 
-    @supports (-webkit-text-stroke: 3px variables.$white) {
-      -webkit-text-stroke: 3px variables.$white;
-      -webkit-text-fill-color: transparent;
-    }
+    // @supports (-webkit-text-stroke: 3px variables.$black) {
+    //   -webkit-text-stroke: 3px variables.$black;
+    //   -webkit-text-fill-color: transparent;
+    // }
   }
 }
 

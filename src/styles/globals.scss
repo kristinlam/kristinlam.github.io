@@ -31,14 +31,20 @@ h1 {
   font-family: variables.$font-heading;
   letter-spacing: 2px;
   line-height: 0.8;
+
+  span {
+    @supports (-webkit-text-stroke: 3px variables.$black) {
+      -webkit-text-stroke: 3px variables.$black;
+      -webkit-text-fill-color: transparent;
+    }
+  }
 }
 
 h2 {
   font-size: clamp(2.441rem, 8vw, 5.063rem);
   font-family: variables.$font-heading;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: variables.$black;
+  font-weight: 300;
+  letter-spacing: 2px;
   line-height: 1.25;
 }
 

@@ -8,13 +8,6 @@
 
   h1 {
     margin-bottom: 1.1em;
-
-    span {
-      @supports (-webkit-text-stroke: 3px variables.$black) {
-        -webkit-text-stroke: 3px variables.$black;
-        -webkit-text-fill-color: transparent;
-      }
-    }
   }
 }
 
