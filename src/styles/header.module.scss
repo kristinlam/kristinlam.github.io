@@ -4,6 +4,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: variables.$white-light;
 }
 
 .content {
@@ -64,7 +65,12 @@
 
   .description {
     max-width: 28em;
-    margin: 2em 0 0 0.5em;
+    margin: 2em 0 0 1em;
+
+    @media only screen and (min-width: 112.5em) {
+      // min: 1800
+      font-size: 1.1rem;
+    }
 
     @media only screen and (max-width: 56.25em) {
       // max: 900
