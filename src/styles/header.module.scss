@@ -116,8 +116,8 @@
       display: none;
     }
 
-    @supports (-webkit-text-stroke: 1px black) {
-      -webkit-text-stroke: 3px white;
+    @supports (-webkit-text-stroke: 3px variables.$white) {
+      -webkit-text-stroke: 3px variables.$white;
       -webkit-text-fill-color: transparent;
     }
   }
@@ -158,5 +158,5 @@
 }
 
 .wave .shapeFill {
-  fill: variables.$beige;
+  fill: variables.$background;
 }

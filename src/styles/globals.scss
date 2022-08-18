@@ -1,4 +1,7 @@
 @use './variables';
+::selection {
+  background-color: rgba(variables.$primary, 0.6);
+}
 
 * {
   margin: 0;
@@ -10,7 +13,7 @@ html {
   box-sizing: border-box;
   width: 100%;
   scroll-behavior: smooth;
-  background-color: variables.$beige;
+  background-color: variables.$background;
 }
 
 body {
@@ -74,7 +77,7 @@ a {
   &:link,
   &:visited {
     text-decoration: none;
-    color: variables.$accent;
+    color: variables.$primary;
     font-size: inherit;
     position: relative;
   }
