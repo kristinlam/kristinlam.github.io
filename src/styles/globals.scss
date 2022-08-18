@@ -17,11 +17,6 @@ body {
   font: 1rem variables.$font-sans;
   line-height: 1.5;
   color: variables.$black;
-
-  // @media only screen and (min-width: 112.5em) {
-  //   // min: 1800
-  //   font-size: 1.125rem;
-  // }
 }
 
 section {
@@ -29,10 +24,15 @@ section {
 }
 
 h1 {
-  font-size: clamp(3.052rem, 8vw, 7.594rem);
+  font-size: clamp(3.052rem, 10vw, 11rem);
   font-family: variables.$font-mono;
   letter-spacing: -5px;
   line-height: 0.8;
+
+  // @media only screen and (min-width: 112.5em) {
+  //   // min: 1800
+  //   font-size: 11rem;
+  // }
 }
 
 h2 {
@@ -66,11 +66,6 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.125;
-
-  // @media only screen and (min-width: 112.5em) {
-  //   // min: 1800
-  //   font-size: 1.125rem;
-  // }
 }
 
 a {
