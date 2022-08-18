@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.f406cf35.css",
-    "main.js": "/static/js/main.1cd3fe67.js",
+    "main.css": "/static/css/main.ce58a518.css",
+    "main.js": "/static/js/main.d433d007.js",
     "static/media/background-3.jpg": "/static/media/background-3.9e33e7368822ffc007e1.jpg",
     "static/media/background-4.jpg": "/static/media/background-4.782ab26aabe91f9a639d.jpg",
     "static/media/background-7.jpg": "/static/media/background-7.bb137548dc9c1de94f0a.jpg",
     "static/media/me.jpg": "/static/media/me.91f41dd3d23be115fee5.jpg",
     "static/media/background-1.jpg": "/static/media/background-1.fd76b3fda35c032e4b1f.jpg",
     "static/media/background-2.jpg": "/static/media/background-2.aa9600566c322541f6ae.jpg",
+    "static/media/background-8.jpg": "/static/media/background-8.8517796fc6235b89632f.jpg",
     "static/media/gumbo.jpg": "/static/media/gumbo.5adac11ea5224d511680.jpg",
     "static/media/okidoki.jpg": "/static/media/okidoki.8c7dea81b28c7724a532.jpg",
     "static/media/background-5.jpg": "/static/media/background-5.e6fed76344ed3628417a.jpg",
@@ -15,11 +16,11 @@
     "static/media/background-6.jpg": "/static/media/background-6.e27eaed3bb17ed64d9d4.jpg",
     "static/media/KristinLam_Resume.pdf": "/static/media/KristinLam_Resume.996b9a752b81d928870f.pdf",
     "index.html": "/index.html",
-    "main.f406cf35.css.map": "/static/css/main.f406cf35.css.map",
-    "main.1cd3fe67.js.map": "/static/js/main.1cd3fe67.js.map"
+    "main.ce58a518.css.map": "/static/css/main.ce58a518.css.map",
+    "main.d433d007.js.map": "/static/js/main.d433d007.js.map"
   },
   "entrypoints": [
-    "static/css/main.f406cf35.css",
-    "static/js/main.1cd3fe67.js"
+    "static/css/main.ce58a518.css",
+    "static/js/main.d433d007.js"
   ]
 }
