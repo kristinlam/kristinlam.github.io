@@ -5,6 +5,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: variables.$white-light;
+  // color: variables.$black;
+
+  h1 {
+    font-size: clamp(3.052rem, 10vw, 11rem);
+  }
 }
 
 .content {

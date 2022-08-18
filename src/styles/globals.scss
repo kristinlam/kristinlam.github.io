@@ -24,15 +24,10 @@ section {
 }
 
 h1 {
-  font-size: clamp(3.052rem, 10vw, 11rem);
+  font-size: clamp(3.052rem, 10vw, 7.594rem);
   font-family: variables.$font-mono;
   letter-spacing: -5px;
   line-height: 0.8;
-
-  // @media only screen and (min-width: 112.5em) {
-  //   // min: 1800
-  //   font-size: 11rem;
-  // }
 }
 
 h2 {
