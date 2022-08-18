@@ -39,6 +39,7 @@
 
 .aboutRow {
   margin: 0 auto;
+
   display: flex;
   align-items: flex-start;
   column-gap: 6rem;
@@ -54,9 +55,8 @@
   }
 
   .description {
-    border-bottom: 1px solid black;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    border-bottom: 1px solid variables.$black;
+    padding-bottom: 1.5rem;
 
     p:not(:last-child) {
       margin-bottom: 1em;
@@ -104,4 +104,12 @@
   grid-template-columns: repeat(auto-fit, minmax(8.75em, 1fr));
   flex-wrap: wrap;
   grid-gap: 1em;
+
+  div {
+    padding: 1.5rem 0;
+
+    &:not(:last-child) {
+      border-right: 1px solid variables.$black;
+    }
+  }
 }
