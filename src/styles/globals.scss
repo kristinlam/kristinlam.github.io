@@ -28,14 +28,14 @@ section {
 
 h1 {
   font-size: clamp(3.052rem, 10vw, 7.594rem);
-  font-family: variables.$font-mono;
-  letter-spacing: -5px;
+  font-family: variables.$font-heading;
+  letter-spacing: 2px;
   line-height: 0.8;
 }
 
 h2 {
   font-size: clamp(2.441rem, 8vw, 5.063rem);
-  font-family: variables.$font-mono;
+  font-family: variables.$font-heading;
   font-weight: 700;
   letter-spacing: 1px;
   color: variables.$black;
@@ -50,7 +50,7 @@ h3 {
 
 h4 {
   font-size: clamp(1.563rem, 8vw, 2.25rem);
-  font-family: variables.$font-mono;
+  font-family: variables.$font-heading;
   line-height: 1.125;
 }
 
