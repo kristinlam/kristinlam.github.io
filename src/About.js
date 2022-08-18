@@ -11,10 +11,8 @@ const About = () => {
         <div className={styles.textContainer}>
           <div className={styles.description}>
             <p>
-              Hello! My name is Kristin and I love creating things on the web.
-            </p>
-            <p>
-              I graduated with a B.S. in Computer Science from Villanova
+              Hello! My name is Kristin and I love creating things on the web. I
+              graduated with a B.S. in Computer Science from Villanova
               University, then designed and built webpages and emails for{' '}
               <a
                 href="https://www.mskcc.org/"
@@ -31,10 +29,13 @@ const About = () => {
               >
                 The Bowery Mission
               </a>
-              . Sustainability, mental health, equality and diversity,
+              .
+            </p>
+            <p>
+              Sustainability, mental health, equality and diversity,
               homelessness, and art are causes near and dear to my heart. I
-              wanted to build on my technical and problem-solving skills, open
-              up opportunities to work on meaningful projects, and grow as a
+              wanted to build on my technical and problem-solving skills to open
+              up opportunities to work on meaningful projects and grow as a
               programmer. With this in mind, I attended{' '}
               <a
                 href="https://www.gracehopper.com/"
@@ -44,10 +45,6 @@ const About = () => {
                 The Grace Hopper Coding Bootcamp
               </a>
               . Now, I’m looking to make a difference as a software engineer.
-            </p>
-            <p>
-              When I'm not in front of a computer screen, you can find me
-              crocheting, reading or drinking matcha lattes.
             </p>
           </div>
           <div className={styles.skills}>
