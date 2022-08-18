@@ -1,13 +1,18 @@
 @use './variables';
 
 .contactSection {
-  background-color: variables.$black-dark;
-  // background-color: variables.$accent;
+  background-color: variables.$accent;
   color: variables.$white;
   // color: variables.$black;
+  // background: linear-gradient(to bottom right, variables.$accent, #eaac8d);
 
   h1 {
     margin-bottom: 1.1em;
+
+    @supports (-webkit-text-stroke: 3px variables.$white) {
+      -webkit-text-stroke: 3px variables.$white;
+      -webkit-text-fill-color: transparent;
+    }
   }
 }
 

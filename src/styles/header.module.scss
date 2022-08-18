@@ -9,6 +9,7 @@
 
   h1 {
     font-size: clamp(3.052rem, 10vw, 11rem);
+    font-family: variables.$font-sans;
   }
 }
 
@@ -113,6 +114,11 @@
     @media only screen and (max-width: 56.25em) {
       // max: 900
       display: none;
+    }
+
+    @supports (-webkit-text-stroke: 1px black) {
+      -webkit-text-stroke: 3px white;
+      -webkit-text-fill-color: transparent;
     }
   }
 }
