@@ -11,9 +11,9 @@ const About = () => {
         <div className={styles.textContainer}>
           <div className={styles.description}>
             <p>
-              Hello! My name is Kristin and I love creating things on the web. I
-              graduated with a B.S. in Computer Science from Villanova
-              University, then designed and built webpages and emails for{' '}
+              I'm Kristin and I love creating things on the web. I graduated
+              with a B.S. in Computer Science from Villanova University, then
+              designed and built webpages and emails for{' '}
               <a
                 href="https://www.mskcc.org/"
                 rel="noopener noreferrer"
@@ -79,7 +79,7 @@ const About = () => {
         </div>
 
         <div className={styles.photo}>
-          <img src={aboutImg} />
+          <img alt="Kristin" src={aboutImg} />
         </div>
       </div>
     </section>

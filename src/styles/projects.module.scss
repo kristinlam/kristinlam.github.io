@@ -2,7 +2,7 @@
 
 .projectsSection {
   max-width: 75rem;
-  padding: 5rem 0 8rem;
+  padding: 8rem 0 8rem;
 
   @media only screen and (max-width: 112.5em) {
     // max: 1800
@@ -12,12 +12,12 @@
   @media only screen and (max-width: 75em) {
     // max: 1200
     max-width: 100%;
-    padding: 3rem 5rem 6rem;
+    padding: 6rem 5rem 6rem;
   }
 
   @media only screen and (max-width: 37.5em) {
     // max: 600
-    padding: 3rem 1.5rem 6rem;
+    padding: 6rem 1.5rem 6rem;
   }
 
   h2 {
@@ -26,7 +26,7 @@
   }
 
   h4 {
-    margin-bottom: 0.3em;
+    margin-bottom: 0.4em;
     margin-right: 0.5em;
   }
 }
@@ -94,7 +94,7 @@
   }
 
   .description p {
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
   }
 
   .tech {
@@ -106,5 +106,6 @@
   a:link,
   a:visited {
     font-weight: 700;
+    text-align: right;
   }
 }

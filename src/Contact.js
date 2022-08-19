@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" className={styles.contactSection}>
       <div className={styles.content}>
         <h1>
-          Get in <span>touch</span>
+          <span>Let's</span> connect
         </h1>
         <div className={styles.contactInfo}>
           <div className={styles.cta}>

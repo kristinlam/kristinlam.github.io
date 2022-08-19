@@ -2,10 +2,12 @@
 
 .navbarSection {
   ul {
+    display: flex;
+    column-gap: 6rem;
+
     @media only screen and (max-width: 56.25em) {
       // max: 900
-      display: flex;
-      justify-content: space-around;
+      column-gap: 3rem;
     }
   }
 
@@ -23,15 +25,11 @@
       // max: 600
       font-size: 1rem;
     }
-
-    &:not(:last-child) {
-      margin-bottom: 0.5em;
-    }
   }
 
   a:link,
   a:visited {
-    color: variables.$white-light;
+    color: variables.$black;
     padding-bottom: 5px;
   }
 }
