@@ -15,9 +15,7 @@ const Header = () => {
       </div>
       <div className={styles.text}>
         <h1>
-          <span>Hi, my name is</span>
-          <br />
-          Kristin Lam.
+          <span>Hi, my name is </span>Kristin Lam.
         </h1>
         <h1>
           <span>I'm a </span>software engineer <span>based in </span>New York.
