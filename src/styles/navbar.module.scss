@@ -1,10 +1,16 @@
 @use './variables';
 
 .navbarSection {
+  padding: 1rem 2rem 0 0;
+
   ul {
+    display: flex;
+    column-gap: 6rem;
+    align-items: center;
+    justify-content: flex-end;
+
     @media only screen and (max-width: 56.25em) {
       // max: 900
-      display: flex;
       justify-content: space-around;
     }
   }
@@ -22,10 +28,6 @@
     @media only screen and (max-width: 37.5em) {
       // max: 600
       font-size: 1rem;
-    }
-
-    &:not(:last-child) {
-      margin-bottom: 0.5em;
     }
   }
 
