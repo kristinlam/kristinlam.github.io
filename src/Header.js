@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import styles from './styles/header.module.scss';
-import background from './assets/images/background-8.jpg';
+import background from './assets/images/background-1.jpg';
 
 const backgroundStyle = {
   backgroundImage: `url(${background})`,
@@ -10,40 +10,18 @@ const backgroundStyle = {
 const Header = () => {
   return (
     <header id="header" className={styles.header} style={backgroundStyle}>
-      <div className={styles.content}>
-        <div className={styles.row1}>
-          <div className={styles.textContainer}>
-            <h1 className={styles.title}>Kristin Lam</h1>
-            <div className={styles.description}>
-              <p>Fullstack software engineer.</p>
-              <p>Living in New York.</p>
-              <p>Let's create together.</p>
-            </div>
-          </div>
-          <div className={styles.navContainer}>
-            <Navbar />
-          </div>
-        </div>
-
-        <div className={styles.row2}>
-          <div className={styles.textContainer}>
-            <h1 className={styles.role}>Software Engineer</h1>
-          </div>
-        </div>
+      <div className={styles.navbar}>
+        <Navbar />
       </div>
-
-      <div className={styles.wave}>
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-            className={styles.shapeFill}
-          ></path>
-        </svg>
+      <div className={styles.text}>
+        <h1>
+          <span>Hi, my name is</span>
+          <br />
+          Kristin Lam.
+        </h1>
+        <h1>
+          <span>I'm a </span>software engineer <span>based in </span>New York.
+        </h1>
       </div>
     </header>
   );
