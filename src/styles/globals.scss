@@ -1,6 +1,6 @@
 @use './variables';
 ::selection {
-  background-color: rgba(#ffe6cd, 0.7);
+  background-color: rgba(variables.$tertiary, 0.7);
 }
 
 * {
