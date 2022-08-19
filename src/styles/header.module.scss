@@ -14,6 +14,12 @@
   justify-content: flex-end;
   align-items: center;
   margin-right: 3rem;
+
+  @media only screen and (max-width: 56.25em) {
+    // max: 900
+    margin-right: 0;
+    justify-content: center;
+  }
 }
 
 .text {
@@ -33,49 +39,11 @@
 
   @media only screen and (max-width: 56.25em) {
     // max: 900
-    min-height: 0;
+    text-align: center;
   }
 
   @media only screen and (max-width: 37.5em) {
     // max: 600
     padding: 0 1rem;
   }
-}
-
-.wave {
-  padding-top: 2em;
-  // border: 1px solid purple;
-  width: 100%;
-  overflow: hidden;
-
-  @media only screen and (max-width: 75em) {
-    // max: 1200
-    padding-top: 0;
-  }
-}
-
-.wave svg {
-  position: relative;
-  display: block;
-  width: calc(125%);
-  height: 11rem;
-
-  @media only screen and (max-width: 75em) {
-    // max: 1200
-    height: 8rem;
-  }
-
-  @media only screen and (max-width: 56.25em) {
-    // max: 900
-    height: 5rem;
-  }
-
-  @media only screen and (max-width: 37.5em) {
-    // max: 600
-    height: 3rem;
-  }
-}
-
-.wave .shapeFill {
-  fill: variables.$background;
 }
