@@ -1,10 +1,9 @@
 @use './variables';
 
 .contactSection {
+  border-top: 1px solid variables.$black;
   background-color: variables.$secondary;
-  // color: variables.$white;
   color: variables.$black;
-  // background: linear-gradient(to bottom right, variables.$accent, #eaac8d);
 
   h1 {
     margin-bottom: 1.1em;
@@ -52,7 +51,6 @@
   .socialLinks {
     display: grid;
     border-top: 1px solid variables.$black;
-    // border-top: 1px solid variables.$white;
     padding-top: 2em;
 
     grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
@@ -68,7 +66,6 @@
 
     a:link,
     a:visited {
-      // color: variables.$white;
       color: variables.$black;
       text-transform: uppercase;
     }
