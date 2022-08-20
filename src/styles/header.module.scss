@@ -4,7 +4,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   border-bottom: 1px solid variables.$black;
 }
 
@@ -13,12 +12,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-right: 3rem;
+  margin-right: 2rem;
 
   @media only screen and (max-width: 56.25em) {
     // max: 900
     margin-right: 0;
-    justify-content: center;
+    justify-content: space-around;
   }
 }
 
@@ -44,6 +43,6 @@
 
   @media only screen and (max-width: 37.5em) {
     // max: 600
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 }

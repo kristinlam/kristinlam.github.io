@@ -2,7 +2,8 @@
 
 .aboutSection {
   max-width: 75rem;
-  padding: 8rem 0 0;
+  margin-top: 4rem;
+  padding: 4rem 0 0;
 
   @media only screen and (max-width: 112.5em) {
     // max: 1800
@@ -12,12 +13,14 @@
   @media only screen and (max-width: 75em) {
     // max: 1200
     max-width: 100%;
-    padding: 6rem 5rem 0;
+    margin-top: 2rem;
+    padding: 4rem 5rem 0;
   }
 
   @media only screen and (max-width: 37.5em) {
     // max: 600
-    padding: 6rem 1.5rem 0;
+    margin-top: 2rem;
+    padding: 3rem 1.5rem 0;
   }
 
   h2 {
@@ -25,6 +28,11 @@
     align-items: center;
     border-bottom: 1px solid variables.$black;
     margin-bottom: 2.5rem;
+
+    @media only screen and (max-width: 75em) {
+      // max: 900
+      margin-bottom: 1.5rem;
+    }
   }
 
   h6 {

@@ -1,6 +1,6 @@
 @use './variables';
 ::selection {
-  background-color: rgba(#ffe6cd, 0.7);
+  background-color: rgba(variables.$tertiary, 0.7);
 }
 
 * {
@@ -36,8 +36,13 @@ h1 {
 h2 {
   font-size: clamp(2.441rem, 8vw, 5.063rem);
   font-family: variables.$font-heading;
-  font-weight: 300;
   line-height: 1.25;
+  word-spacing: 0.1em;
+
+  @supports (-webkit-text-stroke: 3px variables.$black) {
+    -webkit-text-stroke: 1px variables.$black;
+    -webkit-text-fill-color: variables.$primary;
+  }
 }
 
 h3 {
