@@ -64,6 +64,7 @@ const About = () => {
                 <li>React Native</li>
                 <li>Sass</li>
                 <li>CSS Modules</li>
+                <li>Tailwind CSS</li>
                 <li>Styled Components</li>
               </ul>
             </div>

@@ -11,6 +11,16 @@ const projects = [
   },
   {
     id: 2,
+    title: 'Mei Crochet',
+    tech: 'React, Redux, Express, Sequelize, PostgreSQL, Tailwind CSS, Bcrypt, JSON Web Tokens',
+    description: [
+      'An e-commerce site that sells crochet patterns. Features account authentication and guest/user cart and checkout. Currently a work in progress.',
+    ],
+    image: 'meicrochet.jpg',
+    link: 'https://github.com/kristinlam/mei-crochet',
+  },
+  {
+    id: 3,
     title: 'Gumbo NYC',
     tech: 'HTML, CSS, Bootstrap, JavaScript',
     description: [
@@ -20,7 +30,7 @@ const projects = [
     link: 'https://www.gumbo.nyc/',
   },
   {
-    id: 3,
+    id: 4,
     title: 'The Bowery Mission',
     tech: 'HTML, CSS, Foundation',
     description: [
