@@ -11,6 +11,16 @@ const projects = [
   },
   {
     id: 2,
+    title: 'Weatherlust',
+    tech: 'React, CSS Modules',
+    description: [
+      'A weather dashboard, built with React and CSS Modules, using data from OpenWeatherMap.',
+    ],
+    image: 'weatherlust.jpg',
+    link: 'https://kristinlam.github.io/weatherlust/',
+  },
+  {
+    id: 3,
     title: 'Mei Crochet',
     tech: 'React, Redux, Express, Sequelize, PostgreSQL, Tailwind CSS, Bcrypt, JSON Web Tokens',
     description: [
@@ -20,7 +30,7 @@ const projects = [
     link: 'https://github.com/kristinlam/mei-crochet',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Gumbo NYC',
     tech: 'HTML, CSS, Bootstrap, JavaScript',
     description: [
@@ -30,7 +40,7 @@ const projects = [
     link: 'https://www.gumbo.nyc/',
   },
   {
-    id: 4,
+    id: 5,
     title: 'The Bowery Mission',
     tech: 'HTML, CSS, Foundation',
     description: [
