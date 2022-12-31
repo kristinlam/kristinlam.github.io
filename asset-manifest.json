@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.b080abcb.css",
-    "main.js": "/static/js/main.f575c389.js",
-    "static/media/background-2.jpg": "/static/media/background-2.466003391f9d292abd2c.jpg",
+    "main.js": "/static/js/main.cad4d3e4.js",
     "static/media/meicrochet.jpg": "/static/media/meicrochet.8b88fb015dbab5474b63.jpg",
-    "static/media/background-1.jpg": "/static/media/background-1.ffed5ab0eafd66d073ea.jpg",
+    "static/media/background.jpg": "/static/media/background.ffed5ab0eafd66d073ea.jpg",
     "static/media/me.jpg": "/static/media/me.91f41dd3d23be115fee5.jpg",
     "static/media/weatherlust.jpg": "/static/media/weatherlust.f823d0f832b8b91684be.jpg",
     "static/media/gumbo.jpg": "/static/media/gumbo.5adac11ea5224d511680.jpg",
     "static/media/okidoki.jpg": "/static/media/okidoki.8c7dea81b28c7724a532.jpg",
     "static/media/tbm.jpg": "/static/media/tbm.4d6dd88c70ee512bdace.jpg",
-    "static/media/KristinLam_Resume.pdf": "/static/media/KristinLam_Resume.4c4482ba6530a4cc2c4b.pdf",
+    "static/media/KristinLam_Resume.pdf": "/static/media/KristinLam_Resume.35591a3522564e028cf4.pdf",
     "index.html": "/index.html",
     "main.b080abcb.css.map": "/static/css/main.b080abcb.css.map",
-    "main.f575c389.js.map": "/static/js/main.f575c389.js.map"
+    "main.cad4d3e4.js.map": "/static/js/main.cad4d3e4.js.map"
   },
   "entrypoints": [
     "static/css/main.b080abcb.css",
-    "static/js/main.f575c389.js"
+    "static/js/main.cad4d3e4.js"
   ]
 }
