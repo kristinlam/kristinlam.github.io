@@ -17,7 +17,7 @@ const Header = () => {
         <h1>
           <span>Hi, I'm </span>Kristin Lam.
           <span> A</span> software engineer
-          <span> based in </span>New Jersey.
+          <span> based in </span>New York.
         </h1>
       </div>
     </header>
