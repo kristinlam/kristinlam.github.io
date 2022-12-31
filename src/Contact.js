@@ -38,15 +38,6 @@ const Contact = () => {
                     Github
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/klamtaro/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Instagram
-                  </a>
-                </li>
               </ul>
             </div>
             <div>
