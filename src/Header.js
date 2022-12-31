@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import styles from './styles/header.module.scss';
-import background from './assets/images/background-1.jpg';
+import background from './assets/images/background.jpg';
 
 const backgroundStyle = {
   backgroundImage: `url(${background})`,
