@@ -17,7 +17,7 @@ const projects = [
       'A weather dashboard, built with React and CSS Modules, using data from OpenWeatherMap.',
     ],
     image: 'weatherlust.jpg',
-    link: 'https://kristinlam.github.io/weatherlust/',
+    link: 'https://github.com/kristinlam/weatherlust',
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const projects = [
       'Website for a collective of indie game studios called Gamers Under the Manhattan Bridge Overpass, located in Dumbo, Brooklyn. I designed and built the website.',
     ],
     image: 'gumbo.jpg',
-    link: 'https://www.gumbo.nyc/',
+    link: 'https://github.com/kristinlam/gumbo-nyc',
   },
   {
     id: 5,
