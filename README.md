@@ -1,3 +1,5 @@
 # Kristin Lam Portfolio Site
 
-kristinlam.github.io
+My personal website, built with React, SASS, and CSS Modules
+
+![Portfolio](https://github.com/kristinlam/kristinlam.github.io/blob/main/src/assets/images/readme.png?raw=true)
