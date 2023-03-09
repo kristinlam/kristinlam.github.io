@@ -44,7 +44,7 @@ const projects = [
     title: 'The Bowery Mission',
     tech: 'HTML, CSS, Foundation',
     description: [
-      "Website for NYC's oldest homeless shelter. As the digital development coordinator for The Bowery Mission in 2018, I led the website overhaul by designing and building hundreds of pages.",
+      "Website for NYC's oldest homeless shelter. As the digital development coordinator for The Bowery Mission, I led the website overhaul by designing and building hundreds of pages.",
     ],
     image: 'tbm.jpg',
     link: 'https://www.bowery.org/',
