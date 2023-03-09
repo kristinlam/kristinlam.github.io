@@ -21,6 +21,16 @@ const projects = [
   },
   {
     id: 3,
+    title: 'Gen Why',
+    tech: 'React, Redux, Express, Sequelize, PostgreSQL, Tailwind CSS, Bcrypt, JSON Web Tokens',
+    description: [
+      'Features a list of articles on the many — often bizarre — things that milennials have allegedly ruined. Visitors can submit suggestions via a form, which will then be approved by an admin.',
+    ],
+    image: 'genwhy.jpg',
+    link: 'https://github.com/kristinlam/gen-why',
+  },
+  {
+    id: 4,
     title: 'Mei Crochet',
     tech: 'React, Redux, Express, Sequelize, PostgreSQL, Tailwind CSS, Bcrypt, JSON Web Tokens',
     description: [
@@ -28,16 +38,6 @@ const projects = [
     ],
     image: 'meicrochet.jpg',
     link: 'https://github.com/kristinlam/mei-crochet',
-  },
-  {
-    id: 4,
-    title: 'Gumbo NYC',
-    tech: 'HTML, CSS, Bootstrap, JavaScript',
-    description: [
-      'Website for a collective of indie game studios called Gamers Under the Manhattan Bridge Overpass, located in Dumbo, Brooklyn. I designed and built the website.',
-    ],
-    image: 'gumbo.jpg',
-    link: 'https://github.com/kristinlam/gumbo-nyc',
   },
   {
     id: 5,
@@ -48,6 +48,16 @@ const projects = [
     ],
     image: 'tbm.jpg',
     link: 'https://www.bowery.org/',
+  },
+  {
+    id: 6,
+    title: 'Gumbo NYC',
+    tech: 'HTML, CSS, Bootstrap, JavaScript',
+    description: [
+      'Website for a collective of indie game studios called Gamers Under the Manhattan Bridge Overpass, located in Dumbo, Brooklyn. I designed and built the website.',
+    ],
+    image: 'gumbo.jpg',
+    link: 'https://github.com/kristinlam/gumbo-nyc',
   },
 ];
 
