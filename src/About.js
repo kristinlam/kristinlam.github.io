@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './styles/about.module.scss';
 import aboutImg from './assets/images/me.jpg';
 

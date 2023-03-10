@@ -1,4 +1,3 @@
-import React from 'react';
 import projects from './assets/projects';
 import styles from './styles/projects.module.scss';
 
