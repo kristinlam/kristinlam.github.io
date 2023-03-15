@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import projects from './assets/projects';
 import styles from './styles/projects.module.scss';
 
@@ -8,7 +9,13 @@ const Projects = () => {
       <div>
         {projects.map((project) => (
           <div className={styles.project} key={project.id}>
-            <div className={styles.projectContent}>
+            <motion.div
+              initial={{ opacity: 0, y: 200 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ type: 'spring', duration: 1 }}
+              viewport={{ once: true }}
+              className={styles.projectContent}
+            >
               <div className={styles.imgContainer}>
                 <img
                   alt="project"
@@ -32,7 +39,7 @@ const Projects = () => {
                   View the project
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>
