@@ -14,7 +14,7 @@ const projects = [
     title: 'Weatherlust',
     tech: 'React, CSS Modules',
     description: [
-      'A weather dashboard, built with React and CSS Modules, using data from OpenWeatherMap.',
+      'A weather dashboard that pulls data from the OpenWeatherMap API. Selecting a city opens up a modal with more information.',
     ],
     image: 'weatherlust.jpg',
     link: 'https://github.com/kristinlam/weatherlust',
@@ -54,7 +54,7 @@ const projects = [
     title: 'Gumbo NYC',
     tech: 'HTML, CSS, Bootstrap, JavaScript',
     description: [
-      'Website for a collective of indie game studios called Gamers Under the Manhattan Bridge Overpass, located in Dumbo, Brooklyn. I designed and built the website.',
+      'Website for a collective of indie game studios called Gamers Under the Manhattan Bridge Overpass, located in Dumbo, Brooklyn.',
     ],
     image: 'gumbo.jpg',
     link: 'https://github.com/kristinlam/gumbo-nyc',
